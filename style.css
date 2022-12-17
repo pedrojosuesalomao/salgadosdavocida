@@ -1,0 +1,137 @@
+body{
+ 
+   padding: 0%;
+   margin: 0%; 
+   background-image:url(https://i.pinimg.com/564x/c6/20/6d/c6206de1137fd83b56ce8dc07fca1cb6.jpg) ;
+   background-repeat: no-repeat;
+   background-size:100rem;
+   max-width:500rem;
+   min-width:100px;
+}
+.base{
+  max-height: 100%;
+    width: 100%;
+    background-color: red;
+    height: 10rem;
+    margin-top:50rem;
+}
+#vo{
+    margin-top: 62rem;
+    align-items: center;
+     position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -60%);
+
+    
+}
+h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 48rem;
+    font-size: 50pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: arial;
+    font-size: 25pt;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+}
+
+h2{
+    text-align:center;
+    margin-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    max-width: 500rem;
+    min-width: 50px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+div.segundo{
+    margin: 150px auto 0px auto;
+    margin-top: 10rem;
+
+}
+div.primeiro{
+    margin-top: -10rem;
+  
+}
+#sobre{
+    margin: 1px solid black;
+    height: 1rem;
+}
+#encima11{
+    font-size: 20pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+a{
+    margin-left: 2rem;
+}
+
+    /* styling navlist */
+    #navlist {
+        background-color: #df6400;
+        position:absolute;
+        width: 100%;
+        max-width: 500rem;
+        min-width:50px;
+ }
+        
+p{
+    color: rgb(0, 0, 0);
+}
+      
+    /* styling navlist anchor element */
+    #navlist a {
+        float:left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+      
+    .navlist-right{
+        float:right;
+    }
+  
+    /* hover effect of navlist anchor element */
+    #navlist a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+          
+    /* styling search bar */
+    .search input[type=text]{
+        width:300px;
+        height:25px;
+        border-radius:25px;
+        border: none;
+    }
+          
+    .search{
+        float:right;
+        margin:7px;
+    }
+          
+    .search button{
+        background-color: #005cac;
+        color: #f2f2f2;
+        float: right;
+        padding: 5px 10px;
+        margin-right: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+   
